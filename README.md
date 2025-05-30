@@ -7,7 +7,7 @@ This Bash script provides a fast and convenient way to deploy a [Telegram MTProt
 Just copy and paste this command into your terminal:
 
 ```bash
-sudo wget https://go.bibica.net/telegram-mtproto -O mtproto.sh && sudo chmod +x mtproto.sh && sudo ./mtproto.sh --auto
+wget -qO mtproto.sh https://go.bibica.net/telegram-mtproto && sudo bash mtproto.sh --auto
 ```
 
 ### Features
