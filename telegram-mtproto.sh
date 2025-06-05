@@ -24,9 +24,9 @@ echo -e "${GREEN}###############################################################
 echo ""
 
 # Disable firewall
-apt remove iptables-persistent -y >/dev/null 2>&1
-ufw disable >/dev/null 2>&1
-iptables -F >/dev/null 2>&1
+# apt remove iptables-persistent -y >/dev/null 2>&1
+# ufw disable >/dev/null 2>&1
+# iptables -F >/dev/null 2>&1
 
 # Create working directory
 WORKDIR="$HOME/telegram-mtproto"
